@@ -8,6 +8,7 @@ import org.slf4j.LoggerFactory;
  * implementing it where logger needs to operate in serializable environment
  * without being static.
  * oke thank u
+ * ada tambahan kedua
  */
 public interface HasLogger {
 

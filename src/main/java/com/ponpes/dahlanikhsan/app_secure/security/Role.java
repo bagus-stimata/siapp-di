@@ -1,5 +1,7 @@
 package com.ponpes.dahlanikhsan.app_secure.security;
-
+/*
+ * User Otentikasi Role yang akan di permudah lagi
+ */
 public class Role {
 	public static final String BARISTA = "barista";
 	public static final String BAKER = "baker";
