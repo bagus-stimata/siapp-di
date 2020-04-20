@@ -12,6 +12,8 @@ public class Role {
 		// Static methods and fields only
 	}
 
+
+
 	public static String[] getAllRoles() {
 		return new String[] { BARISTA, BAKER, ADMIN };
 	}
