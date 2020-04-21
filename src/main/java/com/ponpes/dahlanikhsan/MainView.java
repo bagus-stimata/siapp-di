@@ -134,7 +134,7 @@ public class MainView extends FlexBoxLayout
 	private void initNaviItems() {
 
 		NaviMenu menu = naviDrawer.getMenu();
-		NaviItem menuItemHome = menu.addNaviItem(VaadinIcon.HOME, "Home", Home.class);
+		NaviItem menuItemHome = menu.addNaviItem(VaadinIcon.HOME, "Rumah", Home.class);
 		NaviItem menuItemPendaftaran = menu.addNaviItem(VaadinIcon.FILE_TEXT_O, "Pendaftaran", Accounts.class);
 		NaviItem menuItemPembayaran = menu.addNaviItem(VaadinIcon.MONEY_DEPOSIT, "Pembayaran", Payments.class);
 

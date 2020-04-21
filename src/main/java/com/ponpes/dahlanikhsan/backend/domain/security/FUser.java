@@ -14,7 +14,7 @@ import java.util.Objects;
 public class FUser extends AbstractEntity {
 
 	@NotEmpty
-	@Email
+	//@Email
 	@Size(max = 255)
 	@Column(unique = true)
 	private String email;

@@ -18,7 +18,7 @@ import com.ponpes.dahlanikhsan.ui.views.Home;
  * The entry point of the Spring Boot application.
  */
 @SpringBootApplication(scanBasePackageClasses = { MainView.class}, exclude = SecurityAutoConfiguration.class)
-//@SpringBootApplication(scanBasePackageClasses = { SecurityConfiguration.class, MainView.class, Application.class,
+// @SpringBootApplication(scanBasePackageClasses = { SecurityConfiguration.class, MainView.class, Application.class,
 //        Home.class, UserService.class }, exclude = ErrorMvcAutoConfiguration.class)
 
 

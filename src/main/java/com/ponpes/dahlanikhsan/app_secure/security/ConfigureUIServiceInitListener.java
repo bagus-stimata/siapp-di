@@ -22,11 +22,11 @@ public class ConfigureUIServiceInitListener implements VaadinServiceInitListener
 		/*
 		 * Non Aktifkan Jika: Security-Ignored
 		 */
-//		event.getSource().addUIInitListener(uiEvent -> {
-//			final UI ui = uiEvent.getUI();
-//			ui.add(new OfflineBanner() );
-//			ui.addBeforeEnterListener(this::beforeEnter);
-//		});
+		event.getSource().addUIInitListener(uiEvent -> {
+			final UI ui = uiEvent.getUI();
+			ui.add(new OfflineBanner() );
+			ui.addBeforeEnterListener(this::beforeEnter);
+		});
 		
 	}
 
@@ -41,13 +41,13 @@ public class ConfigureUIServiceInitListener implements VaadinServiceInitListener
 		/*
 		 * Non Aktifkan Jika: Security-Ignored
 		 */
-//		if (!accessGranted) {
-//			if (SecurityUtils.isUserLoggedIn()) {
-//				event.rerouteToError(AccessDeniedException.class);
-//			} else {
-//				event.rerouteTo(LoginView.class);
-//			}
-//		}//endif
+		if (!accessGranted) {
+			if (SecurityUtils.isUserLoggedIn()) {
+				event.rerouteToError(AccessDeniedException.class);
+			} else {
+				event.rerouteTo(LoginView.class);
+			}
+		}//endif
 		
 	}
 }

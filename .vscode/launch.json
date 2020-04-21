@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-Application<siapp-di>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.ponpes.dahlanikhsan.Application",
+            "projectName": "siapp-di",
+            "args": ""
+        }
+    ]
+}

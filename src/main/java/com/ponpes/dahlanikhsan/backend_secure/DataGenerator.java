@@ -38,6 +38,7 @@ public class DataGenerator implements HasLogger {
 		getLogger().info("... generating users");
 		FUser baker = createBaker(userRepository, passwordEncoder);
 		FUser barista = createBarista(userRepository, passwordEncoder);
+
 		createAdmin(userRepository, passwordEncoder);
 		// A set of products without constrains that can be deleted
 		createDeletableUsers(userRepository, passwordEncoder);
@@ -49,7 +50,6 @@ public class DataGenerator implements HasLogger {
 	private <T> T getRandom(T[] array) {
 		return array[random.nextInt(array.length)];
 	}
-
 
 	private FUser createBaker(UserRepository userRepository, PasswordEncoder passwordEncoder) {
 		return userRepository.save(
@@ -63,7 +63,7 @@ public class DataGenerator implements HasLogger {
 
 	private FUser createAdmin(UserRepository userRepository, PasswordEncoder passwordEncoder) {
 		return userRepository.save(
-				createUser("admin@vaadin.com", "Göran", "Rich", passwordEncoder.encode("admin"), Role.ADMIN, true));
+				createUser("admin", "Göran", "Rich", passwordEncoder.encode("admin"), Role.ADMIN, true));
 	}
 
 	private void createDeletableUsers(UserRepository userRepository, PasswordEncoder passwordEncoder) {

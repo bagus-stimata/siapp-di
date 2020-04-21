@@ -19,7 +19,7 @@ import com.vaadin.flow.component.orderedlayout.FlexComponent;
 import com.vaadin.flow.router.PageTitle;
 import com.vaadin.flow.router.Route;
 
-@PageTitle("Home Ponpes Dahlan Ikhsan")
+@PageTitle("Home")
 //@Route(value = "home", layout = MainView.class) //Main layout tidak perlu untuk di beri @Route
 @Route(value = "", layout = MainView.class)
 public class Home extends ViewFrame {
