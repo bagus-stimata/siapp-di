@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class Siswa {
 
-	private long ID;
+	private long id;
 	private String nis;
 	private String fullName;
 	private String birthPlace;

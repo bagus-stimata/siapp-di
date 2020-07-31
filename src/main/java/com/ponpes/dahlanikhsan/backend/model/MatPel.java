@@ -6,7 +6,7 @@ import com.ponpes.dahlanikhsan.backend.domain.example.Person.Role;
 
 public class MatPel {
 
-	private int ID;
+	private long id;
 	private String kode1;
 	private String kode2;
 	private String description;
@@ -24,56 +24,6 @@ public class MatPel {
 	public Role role;
 	
 
-	public int getID() {
-		return ID;
-	}
-	public void setID(int iD) {
-		ID = iD;
-	}
-	public String getKode1() {
-		return kode1;
-	}
-	public void setKode1(String kode1) {
-		this.kode1 = kode1;
-	}
-	public String getKode2() {
-		return kode2;
-	}
-	public void setKode2(String kode2) {
-		this.kode2 = kode2;
-	}
-	public String getDescription() {
-		return description;
-	}
-	public void setDescription(String description) {
-		this.description = description;
-	}
-	public String getNotes() {
-		return notes;
-	}
-	public void setNotes(String notes) {
-		this.notes = notes;
-	}
-	public Date getCreated() {
-		return created;
-	}
-	public void setCreated(Date created) {
-		this.created = created;
-	}
-	public Date getLastModified() {
-		return lastModified;
-	}
-	public void setLastModified(Date lastModified) {
-		this.lastModified = lastModified;
-	}
-	public String getModifiedBy() {
-		return modifiedBy;
-	}
-	public void setModifiedBy(String modifiedBy) {
-		this.modifiedBy = modifiedBy;
-	}
-	
-	
 	public String getInitials() {
 		return (kode1.substring(0, 1) + description.substring(0, 1))
 				.toUpperCase();
@@ -83,6 +33,83 @@ public class MatPel {
 		return randomBoolean;
 	}
 
+	public long getId() {
+		return id;
+	}
 
+	public void setId(long id) {
+		this.id = id;
+	}
 
+	public String getKode1() {
+		return kode1;
+	}
+
+	public void setKode1(String kode1) {
+		this.kode1 = kode1;
+	}
+
+	public String getKode2() {
+		return kode2;
+	}
+
+	public void setKode2(String kode2) {
+		this.kode2 = kode2;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public String getNotes() {
+		return notes;
+	}
+
+	public void setNotes(String notes) {
+		this.notes = notes;
+	}
+
+	public Date getCreated() {
+		return created;
+	}
+
+	public void setCreated(Date created) {
+		this.created = created;
+	}
+
+	public Date getLastModified() {
+		return lastModified;
+	}
+
+	public void setLastModified(Date lastModified) {
+		this.lastModified = lastModified;
+	}
+
+	public String getModifiedBy() {
+		return modifiedBy;
+	}
+
+	public void setModifiedBy(String modifiedBy) {
+		this.modifiedBy = modifiedBy;
+	}
+
+	public boolean isRandomBoolean() {
+		return randomBoolean;
+	}
+
+	public void setRandomBoolean(boolean randomBoolean) {
+		this.randomBoolean = randomBoolean;
+	}
+
+	public Role getRole() {
+		return role;
+	}
+
+	public void setRole(Role role) {
+		this.role = role;
+	}
 }

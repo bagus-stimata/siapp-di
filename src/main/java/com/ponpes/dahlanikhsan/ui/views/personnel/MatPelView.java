@@ -69,7 +69,7 @@ public class MatPelView extends SplitViewFrame {
 		grid.setDataProvider(dataProvider);
 		grid.setHeightFull();
 
-		grid.addColumn(MatPel::getID)
+		grid.addColumn(MatPel::getId)
 				.setAutoWidth(true)
 				.setFlexGrow(0)
 				.setFrozen(true)

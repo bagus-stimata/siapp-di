@@ -16,7 +16,7 @@ import java.util.Date;
  */
 public class Krs {
 
-	private long ID;
+	private long id;
 	private int nomorUrut;
 	private int nomorUrut2;
 	private String notes;

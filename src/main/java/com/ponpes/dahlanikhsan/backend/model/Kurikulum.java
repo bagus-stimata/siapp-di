@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class Kurikulum {
 
-	private int ID;
+	private long id;
 	private String noRek;
 	private Date periodeFrom;
 	private Date periodeTo;

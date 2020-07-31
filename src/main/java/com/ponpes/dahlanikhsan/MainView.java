@@ -77,8 +77,7 @@ public class MainView extends FlexBoxLayout
 	/*
 	 * MENU DESCRIPTION
 	 */
-	
-	
+
 	public MainView() {
 		VaadinSession.getCurrent()
 				.setErrorHandler((ErrorHandler) errorEvent -> {

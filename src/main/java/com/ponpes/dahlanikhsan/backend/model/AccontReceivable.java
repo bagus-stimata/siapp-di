@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class AccontReceivable {
 
-	private long ID;
+	private long id;
 	private String noRek;
 	private String description;
 	private Date trDate;

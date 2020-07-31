@@ -2,7 +2,7 @@ package com.ponpes.dahlanikhsan.backend.model;
 
 public class Donatur {
 
-	private long ID;
+	private long id;
 	private String name;
 	private String address1;
 	private String address2;

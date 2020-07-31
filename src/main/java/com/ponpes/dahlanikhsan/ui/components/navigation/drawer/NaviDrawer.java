@@ -152,10 +152,12 @@ public class NaviDrawer extends Div
 		// iOS 12.2 sometimes fails to animate the menu away.
 		// It should be gone after 240ms
 		// This will make sure it disappears even when the browser fails.
-		getUI().get().getPage().executeJavaScript(
-				"var originalStyle = getComputedStyle($0).transitionProperty;" //
-						+ "setTimeout(function() {$0.style.transitionProperty='padding'; requestAnimationFrame(function() {$0.style.transitionProperty=originalStyle})}, 250);",
-				mainContent.getElement());
+		try {
+			getUI().get().getPage().executeJavaScript(
+					"var originalStyle = getComputedStyle($0).transitionProperty;" //
+							+ "setTimeout(function() {$0.style.transitionProperty='padding'; requestAnimationFrame(function() {$0.style.transitionProperty=originalStyle})}, 250);",
+					mainContent.getElement());
+		}catch (Exception ex){}
 	}
 
 	public NaviMenu getMenu() {

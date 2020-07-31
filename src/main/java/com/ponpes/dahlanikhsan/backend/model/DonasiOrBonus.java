@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class DonasiOrBonus {
 
-	private long ID;
+	private long id;
 	private String noRek;
 	private Date trDate;
 	private int paymentType;

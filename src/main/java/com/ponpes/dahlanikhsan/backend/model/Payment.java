@@ -10,7 +10,7 @@ import java.util.Date;
  */
 public class Payment {
 
-	private long ID;
+	private long id;
 	private String noRek;
 	private Date trDate;
 	private int paymentType;
