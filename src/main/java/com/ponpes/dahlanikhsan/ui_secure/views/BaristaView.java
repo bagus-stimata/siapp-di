@@ -1,6 +1,6 @@
 package com.ponpes.dahlanikhsan.ui_secure.views;
 
-import com.ponpes.dahlanikhsan.app_secure.security.Role;
+import com.ponpes.dahlanikhsan.app_securityconfig.security.Role;
 import com.vaadin.flow.component.html.Label;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.router.Route;

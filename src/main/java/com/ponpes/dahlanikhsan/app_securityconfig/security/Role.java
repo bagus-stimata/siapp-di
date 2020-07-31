@@ -1,4 +1,4 @@
-package com.ponpes.dahlanikhsan.app_secure.security;
+package com.ponpes.dahlanikhsan.app_securityconfig.security;
 /*
  * User Otentikasi Role yang akan di permudah lagi
  */

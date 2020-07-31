@@ -1,7 +1,7 @@
 package com.ponpes.dahlanikhsan.backend_secure;
 
-import com.ponpes.dahlanikhsan.app_secure.HasLogger;
-import com.ponpes.dahlanikhsan.app_secure.security.Role;
+import com.ponpes.dahlanikhsan.app_securityconfig.HasLogger;
+import com.ponpes.dahlanikhsan.app_securityconfig.security.Role;
 import com.ponpes.dahlanikhsan.backend.domain.security.FUser;
 import com.ponpes.dahlanikhsan.backend.service.security.UserRepository;
 import com.vaadin.flow.spring.annotation.SpringComponent;

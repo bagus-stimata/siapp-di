@@ -1,4 +1,4 @@
-package com.ponpes.dahlanikhsan.app_secure;
+package com.ponpes.dahlanikhsan.app_securityconfig;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

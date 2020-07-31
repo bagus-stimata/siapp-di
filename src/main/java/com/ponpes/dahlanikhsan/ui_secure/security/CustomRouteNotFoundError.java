@@ -15,9 +15,9 @@ public class CustomRouteNotFoundError extends RouteNotFoundError {
 
 	public CustomRouteNotFoundError() {
 		RouterLink link = Component.from(
-				ElementFactory.createRouterLink("", "Go to the front page."),
+				ElementFactory.createRouterLink("", "Menuju ke Halaman Depan"),
 				RouterLink.class);
-		getElement().appendChild(new Text("Oops you hit a 404. ").getElement(), link.getElement());
+		getElement().appendChild(new Text("Oops you hit a 404. Tidak ada Route").getElement(), link.getElement());
 	}
 
 	@Override

@@ -1,4 +1,4 @@
-package com.ponpes.dahlanikhsan.app_secure.security;
+package com.ponpes.dahlanikhsan.app_securityconfig.security;
 
 
 import com.ponpes.dahlanikhsan.backend.domain.security.FUser;

@@ -1,4 +1,4 @@
-package com.ponpes.dahlanikhsan.app_secure.security;
+package com.ponpes.dahlanikhsan.app_securityconfig.security;
 
 import com.ponpes.dahlanikhsan.ui_secure.LoginView;
 import com.ponpes.dahlanikhsan.ui_secure.security.AccessDeniedException;

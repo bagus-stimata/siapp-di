@@ -1,6 +1,6 @@
 package com.ponpes.dahlanikhsan.ui_secure.views;
 
-import com.ponpes.dahlanikhsan.app_secure.security.Role;
+import com.ponpes.dahlanikhsan.app_securityconfig.security.Role;
 import com.ponpes.dahlanikhsan.backend.domain.security.FUser;
 import com.ponpes.dahlanikhsan.backend.service.security.UserRepository;
 import com.vaadin.flow.component.html.Label;

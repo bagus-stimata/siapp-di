@@ -4,15 +4,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration;
-import org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
-import com.ponpes.dahlanikhsan.app_secure.security.SecurityConfiguration;
 import com.ponpes.dahlanikhsan.backend.domain.security.FUser;
 import com.ponpes.dahlanikhsan.backend.service.security.UserRepository;
-import com.ponpes.dahlanikhsan.backend.service.security.UserService;
-import com.ponpes.dahlanikhsan.ui.views.Home;
 
 /**
  * The entry point of the Spring Boot application.

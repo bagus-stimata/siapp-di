@@ -1,4 +1,4 @@
-package com.ponpes.dahlanikhsan.app_secure.security;
+package com.ponpes.dahlanikhsan.app_securityconfig.security;
 
 import org.springframework.security.web.savedrequest.HttpSessionRequestCache;
 

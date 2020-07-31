@@ -1,7 +1,7 @@
 package com.ponpes.dahlanikhsan.ui_secure;
 
 import com.ponpes.dahlanikhsan.AppParam;
-import com.ponpes.dahlanikhsan.app_secure.security.SecurityUtils;
+import com.ponpes.dahlanikhsan.app_securityconfig.security.SecurityUtils;
 import com.ponpes.dahlanikhsan.ui_secure.security.BakeryConst;
 import com.vaadin.flow.component.dependency.JsModule;
 import com.vaadin.flow.component.login.LoginI18n;

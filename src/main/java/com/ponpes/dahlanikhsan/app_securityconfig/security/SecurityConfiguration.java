@@ -1,4 +1,4 @@
-package com.ponpes.dahlanikhsan.app_secure.security;
+package com.ponpes.dahlanikhsan.app_securityconfig.security;
 
 import com.ponpes.dahlanikhsan.backend.domain.security.FUser;
 import com.ponpes.dahlanikhsan.backend.service.security.UserRepository;
@@ -141,6 +141,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 				// icons and images
 				"/icons/**",
 				"/static.frontend/images/**",
+				"images/**",
 
 				// (development mode) static resources
 				"/frontend/**",

@@ -6,7 +6,7 @@ import com.ponpes.dahlanikhsan.backend.domain.security.FUser;
 
 import javax.persistence.EntityNotFoundException;
 
-public interface CrudService<T extends AbstractEntity> {
+public interface CrudService<T> {
 
 	JpaRepository<T, Long> getRepository();
 

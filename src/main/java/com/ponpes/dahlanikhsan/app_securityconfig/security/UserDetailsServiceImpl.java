@@ -1,4 +1,4 @@
-package com.ponpes.dahlanikhsan.app_secure.security;
+package com.ponpes.dahlanikhsan.app_securityconfig.security;
 
 import com.ponpes.dahlanikhsan.backend.domain.security.FUser;
 import com.ponpes.dahlanikhsan.backend.service.security.UserRepository;
@@ -43,7 +43,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 		FUser user = userRepository.findByEmailIgnoreCase(username);
 		if (null == user) {
-			throw new UsernameNotFoundException("No user present with username: " + username);
+			throw new UsernameNotFoundException("Tidak ada user dengan user name: " + username);
 		} else {
 			return new org.springframework.security.core.userdetails.User(user.getEmail(), user.getPasswordHash(),
 					Collections.singletonList(new SimpleGrantedAuthority(user.getRole())));
