@@ -1,9 +1,9 @@
 package com.ponpes.dahlanikhsan.backend_secure;
 
-import com.ponpes.dahlanikhsan.app_securityconfig.HasLogger;
-import com.ponpes.dahlanikhsan.app_securityconfig.security.Role;
-import com.ponpes.dahlanikhsan.backend.domain.security.FUser;
-import com.ponpes.dahlanikhsan.backend.service.security.UserRepository;
+import com.ponpes.dahlanikhsan.app_security.HasLogger;
+import com.ponpes.dahlanikhsan.app_security.model.FUser;
+import com.ponpes.dahlanikhsan.app_security.repository.UserRepository;
+import com.ponpes.dahlanikhsan.app_security.securityconfig.*;
 import com.vaadin.flow.spring.annotation.SpringComponent;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;

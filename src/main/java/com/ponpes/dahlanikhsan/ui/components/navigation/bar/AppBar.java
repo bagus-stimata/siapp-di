@@ -22,6 +22,7 @@ import com.vaadin.flow.component.orderedlayout.FlexComponent;
 import com.vaadin.flow.component.tabs.Tab;
 import com.vaadin.flow.component.tabs.Tabs;
 import com.vaadin.flow.component.textfield.TextField;
+import com.vaadin.flow.server.VaadinSession;
 import com.vaadin.flow.shared.Registration;
 
 import java.util.ArrayList;
@@ -348,11 +349,11 @@ public class AppBar extends FlexBoxLayout {
 	/* === MENU BAR EVENT === */
 	private void action_LogOut(ClickEvent<MenuItem> e) {
 		
-        UI.getCurrent().getPage().setLocation("/logout");
+//        UI.getCurrent().getPage().setLocation("/logout");
         
-//		if (VaadinSession.getCurrent().getAttribute("userLoggedIn") == null) {
-//	        UI.getCurrent().getPage().setLocation("/logout");
-//		}
+		if (VaadinSession.getCurrent().getAttribute("userLoggedIn") == null) {
+	        UI.getCurrent().getPage().setLocation("/logout");
+		}
 //      UI.getCurrent().getPage().executeJavaScript("window.open(\"http://vaadin.com/\", \"_self\");");
         
 	}

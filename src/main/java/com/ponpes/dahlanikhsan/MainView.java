@@ -49,9 +49,9 @@ import org.slf4j.LoggerFactory;
 @CssImport(value = "./styles/styles.css", include = "lumo-badge")
 @JsModule("@vaadin/vaadin-lumo-styles/badge")
 //@PWA(name = "Database SBT", shortName = "Database SBT", iconPath = "/images/logo-18.png", backgroundColor = "#233348", themeColor = "#233348")
-@PWA(name = "Ponpes Dahlan Ikhsan", shortName = "Dahlan Ikhsan", iconPath = "/images/logos/01_app_logo.png", backgroundColor = "#233348", themeColor = "#233348")
+//@PWA(name = "Ponpes Dahlan Ikhsan", shortName = "Dahlan Ikhsan", iconPath = "/images/logos/01_app_logo.png", backgroundColor = "#233348", themeColor = "#233348")
 @Viewport("width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes")
-@Theme(value = Lumo.class, variant = Material.DARK)
+@Theme(value = Lumo.class, variant = Material.LIGHT)
 public class MainView extends FlexBoxLayout
 		implements RouterLayout, PageConfigurator, AfterNavigationObserver {
 
@@ -99,6 +99,8 @@ public class MainView extends FlexBoxLayout
 
 		// Configure the headers and footers (optional)
 		initHeadersAndFooters();
+
+		System.out.println("Main View 1");
 	}
 
 	/**
